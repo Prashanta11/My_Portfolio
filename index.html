@@ -1,1 +1,75 @@
-<p>HTml for Portfolio</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal POrtfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/My_Portfolio/images/logo.png" height="160px" width="140px" class="logo"/>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li> 
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+               </nav>
+               <div class="header-text">
+                <P>Passionate Web Developer</P>
+                <h1>Hi! I 'm<span> Prashanta</span><br> Deuja From Nepal </h1>
+  </div>
+        </div>
+    </div>
+    <!--About section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+        
+            <div class="about-col-1">
+                <img src="/My_Portfolio/images/user.jpg"  alt="photo">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>" "Hello there! I'm Prashanta Deuja, a passionate Bachelor's student at Tribhuwan University,currently immersedin the world of BSc.CSIT.With a keen interest in web development,I've honed my skills in HTML, CSS, and JavaScript, crafting digital experiences one line of code at a time. My journey also includes delving into the realms of cybersecurity, as well as exploring the exciting possibilities of IoT and robotics. Join me as I continue to learn, innovate, and build towards a future where technology enhances lives."</p>
+               <br>
+                <div id="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div><br>
+                <div id="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Desigining Web/App interfaces</li>
+                        <li><span>Web-Development</span><br>Web app Development</li>
+                        <li><span>Project Management</span><br>Managing the Projects</li>
+                     </ul>
+            </div>
+            <div id="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021-2013</span><br>Worked as a computer Teacher at ABC school</li>
+                    <li><span>2029-21</span><br>worked at xy complex as sales Accountant</li>
+                    <li><span>2023</span><br>Managing the Projects</li>
+                 </ul>
+        </div>
+        <div id="tab-contents" id="education">
+            <ul>
+                <li><span>2016</span><br> S.S Niketan English High School</li>
+                <li><span>2018</span><br> completed +2 science from Saipal Acamedy </li>
+                <li><span>2024</span><br>BSC.CSIT From Mechi Multiple Campus(Tribhuwan University)</li>
+             </ul>
+    </div>
+            </div>
+            </div>
+            </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+    
+    </script>
+</body>
+</html>
