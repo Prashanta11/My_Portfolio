@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "poppins", sans-serif;
+  font-family: "Nunito";
   box-sizing: border-box;
 }
 html {
@@ -16,14 +16,15 @@ body {
 #header {
   height: 100vh;
   width: 100;
-  background-image: url(/images/background.png);
+  background-image:linear-gradient(217deg,#000000, #7ED6DF);
   background-size: cover;
   background-position: center;
 }
 
 .logo {
-  border-radius: 15px;
-  width: 140px;
+  height:75px;
+  width: 75px;
+  border-radius: 50%;
 }
 
 .container {
@@ -72,10 +73,16 @@ nav ul li a:hover::after {
   font-size: 60px;
 }
 .header-text h1 span {
-  color: #ff004f;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  color: #000000;
 }
 
 /*---About section---*/
+
+#about{
+  margin-top: 20px;
+}
 .row {
   display: flex;
   justify-content: space-between;
